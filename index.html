@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title>Magic-SOFIP</title>
   </head>
@@ -53,53 +58,59 @@
 
     </div>
     <div class="Activité">
+         
         <div class="Titrephare">
             <h2>Activite phare</h2>
         </div>
-        <div class="battle-kart">
-            <img src="kart-battle.png" alt="battle kart">
+        <div class="battle-kart" data-aos="flip-left">
+           <a href="https://youtu.be/Ty8ycqgbax0" target="blank"> <img src="kart-battle.png" alt="battle kart" ></a>
             <p>Battle Kart</p>
         </div>
-        <div class="contagionvr">
-            <img src="logo contagion VR.png" alt="contagion vr">
+        <div class="contagionvr" data-aos="flip-left">
+           <a href="https://youtu.be/frqDT4bD-OE" target="blank"> <img src="logo contagion VR.png" alt="contagion vr"></a>
             <p>Contagion VR</p>
         </div>
         <div class="resto">
-            <img src="restaurant-araz.jpg"  alt="resto">
+            <img src="restaurant-araz.jpg"  alt="resto" data-aos="flip-left">
             <p>resto</p>
         </div>
     </div>
 
     <div class="Prix">
-        <div class="tarif">
+        <div class="tarif"data-aos="zoom-in" >
             <h2>Tarif</h2>
         </div>
         <div class="tpersonne">
-            <p>Adulte
-                35€
-            </p>
-            <p>Enfant -12Ans
-                30€
-            </p>
-            <p>Senior +60Ans
-                31€
-            </p>
-            <p>Passe Premium
-                80€
-            </p>
+            <div class="card1" data-aos="zoom-in-down">
+            <p>Adulte</p>
+            <p>35€</p>
+            </div>
+            <div class="card2"data-aos="zoom-in-down" >
+           <p>Enfants -12 ans</p>
+           <p>30€</p>
+            </div>
+            <div class="card3" data-aos="zoom-in-down" >
+           <p>Senior +60 ans</p>
+           <p>31€</p>
+            </div>
+            <div class="card4" data-aos="zoom-in-down">
+            <p>Pass Premium</p>
+            <p>80€</p>
+            </div>
         </div>
     </div>
     <div class="carte">
         <img src="plan-complet.jpg" alt="plan">
     </div>
-    <footer>
+     <footer>
         <div class="logo">
             <img src="logo.png" alt="logo">
         </div>
          <div class="réseaux">
-            <a href="https://fr-fr.facebook.com/" target="blank"><img src="facebooklogo.png" alt=""></a>
-            <a href="https://twitter.com/?lang=fr" target="blank"><img src="twitterlogo.png" alt=""></a>
-            <a href="https://www.instagram.com/?hl=fr" target="blank"><img src="instagramlogo.png" alt=""></a>
+            <div><a href="https://fr-fr.facebook.com/" target="blank"><img src="facebooklogo.png" alt="" class="reseau" /></a></div>
+             <div><a href="https://www.youtube.com/" target="blank"><img src="youtube.png" alt="" class="reseau" /></a></div>
+            <div><a href="https://twitter.com/?lang=fr" target="blank"><img src="twitterlogo.png" alt="" class="reseau" /></a></div>
+           
         </div> 
         <div class="adresse">
             <h3>Adresse</h3>
@@ -114,8 +125,13 @@
                 10h00 à
                 19h00
                 tout les jours.
+                Sauf certain jours !
             </p>
         </div>
-    </footer>
+    </footer> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>
