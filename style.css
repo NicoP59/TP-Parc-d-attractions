@@ -246,3 +246,22 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
+
+/* *************************responsive************************** */
+
+@media screen and (max-width: 1024px) {
+  /* **********************header************** */
+  .Activité {
+    flex-direction: column;
+  }
+  .Titrephare {
+    margin-top: 50px;
+  }
+
+  .battle-kart {
+    margin-top: 100px;
+  }
+  .contagionvr {
+    margin-top: -50px;
+  }
+}
