@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-image: url("fredo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @font-face {
   font-family: "Game Of Squids.ttf";
@@ -21,6 +24,9 @@ body {
 
 header {
   position: relative;
+  background-image: url("amusement.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
