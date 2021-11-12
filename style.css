@@ -278,8 +278,13 @@ footer {
   nav ul{
     flex-direction: column;
   }
+  .accueille{
+    font-size: 1.5em;
+  }
+  .newsletter{
+    font-size: 1.5em;
+  }
 
-   
   .Activité {
     flex-direction: column;
   }
@@ -328,7 +333,7 @@ footer {
     font-size: 1em;
   }
   .horaires {
-    width: 25vw;
+    width: 20vw;
     height: 20vh;
     margin-right: 20px;
     font-size: 1em;
@@ -353,10 +358,14 @@ footer {
   }
   .accnews {
     flex-direction: column;
-    margin-top: 200px;
+    
+    
   }
-  .newsletter {
-    margin-top: 100px;
+  .accueille{
+    font-size: 1em;
+  }
+  .newsletter{
+    font-size: 1em;
   }
 
   header,
@@ -370,14 +379,20 @@ footer {
   }
 
   .Titrephare {
-    margin-top: 300px;
+    margin-top: 400px;
+    font-size: 1em;
   }
+
+  .battle-kart{
+    
+  }
+  
 
   .battle-kart,
   .contagionvr,
   .resto {
     padding-top: 140px;
-    margin: auto;
+    /* margin: auto; */
   }
 
   .card1,
@@ -385,7 +400,7 @@ footer {
   .card3,
   .card4 {
     width: 20vw;
-    height: 30vh;
+    height: 20vh;
     margin-top: 50px;
   }
 
@@ -394,20 +409,20 @@ footer {
   }
 
   footer {
-    height: 45vh;
+    height: 25vh;
     width: 100vw;
     margin-top: 200px;
   }
   .adresse {
     width: 30vw;
-    height: 30vh;
-    font-size: 1.25em;
+    height: 20vh;
+    font-size: 1em;
   }
 
   .horaires {
-    width: 30vw;
-    height: 30vh;
-    font-size: 1.25em;
+    width: 25vw;
+    height: 20vh;
+    font-size: 1em;
   }
 
   .réseaux .reseau {
