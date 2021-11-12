@@ -19,6 +19,14 @@ body{
   position: relative;
 }
 
+
+.logo1 {
+  width: 200px;
+  height: 200px;
+  margin: 0.2em;
+}
+
+
 header {
   position: relative;
   background-repeat: no-repeat;
@@ -156,8 +164,6 @@ footer {
   padding-bottom: 50px;
 }
 
-
-
 .réseaux {
   display: flex;
   justify-content: space-around;
@@ -184,26 +190,95 @@ footer {
   background-color: rgb(192, 191, 191);
   width: 15vw;
   height: 25vh;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   margin-top: 20px;
 }
 
+
+
+
 /* *************************responsive************************** */
 
-@media screen and (max-width: 1024px) {
-  /* **********************header************** */
-  .Activité {
-    flex-direction: column;
-  }
-  .Titrephare {
-    margin-top: 50px;
+@media screen and (max-width: 700px) {
+  
+/* **********************header************** */
+
+header,
+  nav {
+    position: static;
+    background-image: url("amusement.jpg");
   }
 
-  .battle-kart {
-    margin-top: 100px;
+  .video {
+    display: none;
   }
-  .contagionvr {
-    margin-top: -50px;
+
+  .logo1 {
+    width: 50vw;
+    height: 200px;
+    margin: 0.2em;
+    padding-top: 1em;
   }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+/***************************************************/
+
+body {
+  width: auto;
+}
+
+
+.col1{
+display: none;
+}
+
+.col2{
+width: 500px;
+padding: 0.5em;
+margin: 0.2em;
+}
+
+/******************** footer ***********************/
+footer {
+  height: auto;
+  width: 100vw;
+  margin-top: 200px;
+  flex-direction: column;
+  display: flex;
+}
+
+.logo2 {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+.adresse {
+  width: 250px;
+  height: 30vh;
+  font-size: 1.25em;
+  flex-direction: column;
+  margin: 4em;
+}
+
+.horaires {
+  width: 30vw;
+  height: 30vh;
+  font-size: 1.25em;
+  margin-left: 150px;
+}
+
+.réseaux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 5vw;
+  margin: 70px auto;
+  height: 5vh;
+}
+
 }
