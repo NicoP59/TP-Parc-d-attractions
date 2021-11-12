@@ -153,7 +153,7 @@ a {
   align-items: center;
 }
 
-.tarif {
+.tarifs {
   position: absolute;
   top: 0;
   left: 50;
@@ -215,8 +215,7 @@ footer {
   background-color: gray;
 }
 
-.logo {
-}
+
 
 .réseaux {
   display: flex;
