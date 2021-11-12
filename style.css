@@ -252,10 +252,8 @@ footer {
 }
 
 .adresse {
-  background-color: rgb(34, 34, 34);
-  border-radius: 50px;
   width: 20vw;
-  height: 25vh;
+  height: 20vh;
   font-size: 1.5em;
   text-align: center;
   margin-top: 20px;
@@ -263,7 +261,7 @@ footer {
 }
 
 .horaires {
-  background-color: rgb(192, 191, 191);
+  
   width: 20vw;
   height: 20vh;
   font-size: 1.5em;
@@ -273,84 +271,17 @@ footer {
 
 /* *************************responsive************************** */
 
-@media screen and (max-width: 1024px) {
-  /* **********************header************** */
-  nav ul{
-    flex-direction: column;
-  }
-  .accueille{
-    font-size: 1.5em;
-  }
-  .newsletter{
-    font-size: 1.5em;
-  }
-
-  .Activité {
-    flex-direction: column;
-  }
-  .Titrephare {
-    margin-top: 100px;
-  }
-
-  .battle-kart {
-    margin-top: 150px;
-  }
-  .contagionvr {
-    margin-top: -50px;
-  }
-
-  .tpersonne {
-    flex-flow: wrap;
-  }
-
-  .card1,
-  .card2,
-  .card3,
-  .card4 {
-    width: 17vw;
-    height: 20vh;
-  }
-
-  .carte {
-    width: 80%;
-  }
-  .logof img {
-    display: none;
-  }
-  footer {
-    width: 100%;
-    height: 25vh;
-    display: flex;
-  }
-
-  .réseaux .reseau {
-    width: 8vw;
-    height: 5vh;
-  }
-  .adresse {
-    width: 30vw;
-    height: 20vh;
-    font-size: 1em;
-  }
-  .horaires {
-    width: 20vw;
-    height: 20vh;
-    margin-right: 20px;
-    font-size: 1em;
-  }
-} 
-
 @media screen and (max-width: 700px) {
-  body {
-    width: auto;
+  header{
+    position: static;
   }
+
   .video {
     display: none;
   }
 
   .logo {
-    width: 50vw;
-    height: 50vh;
+    height: 20vh;
   }
 
   nav ul {
@@ -373,61 +304,61 @@ footer {
     position: static;
   }
 
-  .Activité,
-  .Titrephare {
-    position: static;
-  }
+  .Activité{
+    flex-direction: column;
+    margin-left: auto;
+    margin-bottom: auto;
+    display: none;
+  } 
 
-  .Titrephare {
-    margin-top: 400px;
-    font-size: 1em;
-  }
+  .tpersonne{
+   margin-top: 100%;
 
+  }
+  .tarif{
+    margin-top: 80%;
+  }
   
-  .battle-kart,
-  .contagionvr
-   {
-    padding-right: 50%;
-    
-  }
-  .resto{
-    padding-right: 50%;
-    padding-left: 50%;
-  }
-
-  .card1,
+ .card1,
   .card2,
   .card3,
   .card4 {
     width: 20vw;
-    height: 25vh;
-    margin-top: 50px;
-    font-size: 1em;
-  }
+    height: 20vh;
+    font-size: 0.5em;
+  } 
+  
 
   .carte {
     display: none;
   }
 
   footer {
-    height: 25vh;
+    height: 40vh;
     width: 100vw;
-    margin-top: 200px;
+    justify-content: space-around;
+   
   }
   .adresse {
-    width: 38vw;
-    height: 20vh;
-    font-size: 1em;
+    width: 15vw;
+    height: 15vh;
+    font-size: 0.90em;
   }
 
   .horaires {
-    width: 25vw;
-    height: 20vh;
+    width: 15vw;
+    height: 15vh;
     font-size: 1em;
   }
 
   .réseaux .reseau {
     width: 5vw;
     height: 5vh;
+  }
+  .logof{
+    display: none;
+  }
+  .réseaux{
+    flex-direction: column;
   }
 }
