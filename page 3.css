@@ -165,7 +165,9 @@ img:hover{
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: gray;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 
@@ -173,11 +175,12 @@ footer {
 .réseaux {
   display: flex;
   justify-content: space-around;
-  padding-top: 70px;
+  align-items: center;
+  padding-top: 50px;
 }
 
 .reseau {
-  width: 10vw;
+  width: 5vw;
 }
 
 .adresse {
