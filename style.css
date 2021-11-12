@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-image: url("fredo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @font-face {
   font-family: "Game Of Squids.ttf";
@@ -21,6 +24,9 @@ body {
 
 header {
   position: relative;
+  background-image: url("amusement.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 nav {
@@ -113,6 +119,12 @@ a {
   padding: 50px;
   font-family: "Game Of Squids.ttf";
 }
+.battle-kart:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: 0.6s;
+}
 
 .contagionvr {
   font-size: 30px;
@@ -123,6 +135,12 @@ a {
   padding: 50px;
   font-family: "Game Of Squids.ttf";
 }
+.contagionvr:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: 0.6s;
+}
 
 .resto {
   font-size: 30px;
@@ -132,6 +150,12 @@ a {
   width: 50vw;
   padding: 50px;
   font-family: "Game Of Squids.ttf";
+}
+.resto:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: 0.6s;
 }
 
 .resto img {
@@ -216,21 +240,21 @@ footer {
 }
 
 
-
 .réseaux {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .reseau {
-  width: 10vw;
+  width: 5vw;
 }
 
 .adresse {
   background-color: rgb(34, 34, 34);
   border-radius: 50px;
-  width: 15vw;
-  height: 25vh;
+  width: 20vw;
+  height: 20vh;
   font-size: 1.5em;
   text-align: center;
   margin-top: 20px;
@@ -239,8 +263,8 @@ footer {
 
 .horaires {
   background-color: rgb(192, 191, 191);
-  width: 15vw;
-  height: 25vh;
+  width: 20vw;
+  height: 20vh;
   font-size: 1.5em;
   text-align: center;
   margin-top: 20px;
@@ -254,7 +278,7 @@ footer {
     flex-direction: column;
   }
   .Titrephare {
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   .battle-kart {
@@ -262,5 +286,124 @@ footer {
   }
   .contagionvr {
     margin-top: -50px;
+  }
+
+  .tpersonne {
+    flex-flow: wrap;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 17vw;
+    height: 17vh;
+  }
+
+  .carte {
+    width: 80%;
+  }
+  .logof img {
+    display: none;
+  }
+  footer {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+  }
+
+  .réseaux .reseau {
+    width: 8vw;
+    height: 5vh;
+  }
+  .adresse {
+    width: 30vw;
+    height: 20vh;
+  }
+  .horaires {
+    width: 25vw;
+    height: 20vh;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    width: auto;
+  }
+  .video {
+    display: none;
+  }
+
+  .logo {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+  .accnews {
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  .newsletter {
+    margin-top: 100px;
+  }
+
+  header,
+  nav {
+    position: static;
+  }
+
+  .Activité,
+  .Titrephare {
+    position: static;
+  }
+
+  .Titrephare {
+    margin-top: 300px;
+  }
+
+  .battle-kart,
+  .contagionvr,
+  .resto {
+    padding-top: 140px;
+    margin: auto;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 20vw;
+    height: 30vh;
+    margin-top: 50px;
+  }
+
+  .carte {
+    display: none;
+  }
+
+  footer {
+    height: 45vh;
+    width: 100vw;
+    margin-top: 200px;
+  }
+  .adresse {
+    width: 30vw;
+    height: 30vh;
+    font-size: 1.25em;
+  }
+
+  .horaires {
+    width: 30vw;
+    height: 30vh;
+    font-size: 1.25em;
+  }
+
+  .réseaux .reseau {
+    width: 5vw;
+    height: 5vh;
   }
 }
