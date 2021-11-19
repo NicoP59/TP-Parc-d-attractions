@@ -7,7 +7,18 @@ body {
   font-family: "Game Of Squids.ttf";
   src: url("game.ttf");
 }
-
+/* test horloge */
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  display: flex;
+}
 /* ***************************header******************* */
 
 .video {
@@ -270,7 +281,13 @@ footer {
 
 /* *************************responsive************************** */
 
-@media screen and (min-width: 701px) and (max-width: 900px) {
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  .container{ 
+    position: static;  
+    transform: none;  
+     font-size: 70px;
+      display: flex;
+  }
 nav{
   height: 0vh;
   margin-top: 160px;
