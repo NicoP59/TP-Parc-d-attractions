@@ -131,7 +131,7 @@ a {
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 30px;
-      }
+    }
 
 .col3 {
     flex: 1; 
@@ -209,11 +209,10 @@ footer {
 @media screen and (max-width: 700px) {
   
 /*************************************************************/
-  
-    body {
-      width: auto;
-    }
 
+body {
+  width: auto;
+}
 
 /******************************header*************************/
 
@@ -237,7 +236,6 @@ footer {
       flex-direction: column;
     }
   
-
   /***********************************************************/
 
     .col1{
@@ -249,50 +247,125 @@ footer {
     padding: 0.5em;
     margin: 0.2em;
   }
+  .row3{
+    display: none;
+  }
   
-  
-  /***************************** footer *********************/
-    footer {
-      height: auto;
-      width: 100vw;
-      margin-top: 200px;
-      flex-direction: column;
-      display: flex;
-      background-color: gray;
-    }
-  
-    .logo2 {
-      width: 200px;
-      height: 200px;
-      margin-left: 30px;
-    }
-  
-    .adresse {
-      width: 250px;
-      height: 30vh;
-      font-size: 1.25em;
-      flex-direction: column;
-      margin: 4em;
-    }
-  
-    .horaires {
-      width: 30vw;
-      height: 30vh;
-      font-size: 1.25em;
-      margin-left: 150px;
-    }
-  
-    .réseaux {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 5vw;
-      margin: 70px auto;
-      height: 5vh;
-    }
+    /******************** footer ***********************/
+footer {
+  height: auto;
+  width: 100vw;
+  margin-top: 200px;
+  flex-direction: column;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: 0;
+}
 
-    .row3{
-      display: none;
-    }
+.logo {
+  display: none;
+}
+
+.adresse {
+  margin: auto;
+  width: 90%;
+  font-size: 1.25em;
+  flex-direction: column;
+  padding-bottom: 10px;
+  
+}
+
+.horaires {
+  margin: auto;
+  width: 90%;
+  font-size: 1.25em;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.réseaux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 5vw;
+  margin: 70px auto;
+  height: 5vh;
+}
+
+}
+
+/* *************************responsive************************** */
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+
+  /*************************************************************/
+
+.col1{
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Logo des attractions*/
+.col2 {
+  flex: 1; 
+  padding: 1em;
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.row3{
+  display: none;
+}
+/******************** footer ***********************/
+footer {
+  height: auto;
+  width: 100vw;
+  margin-top: 200px;
+  flex-direction: column;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: 0;
+}
+
+.logo {
+  display: none;
+}
+
+.adresse {
+  margin: auto;
+  width: 90%;
+  font-size: 1.5em;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-top: 75px;
+  
+}
+
+.horaires {
+  margin: auto;
+  width: 90%;
+  font-size: 1.5em;
+  margin-top: 50px;
+  padding-top: 50px;
+  border-radius: 15px;
+}
+
+.réseaux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 5vw;
+  margin: 70px auto;
+  height: 5vh;
+}
 
 }
